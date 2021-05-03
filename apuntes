@@ -1,0 +1,7 @@
+GRID
+
+Se superponen según se van añadiendo. Las últimas irán por encima.
+Los div respetan la grid pero el contenido no, así que ojo!
+Hay que tener en cuenta que las líneas verticales y horizontales pueden tener ancho también.
+
+MIRAR LA WEB CSS-TRICKS
