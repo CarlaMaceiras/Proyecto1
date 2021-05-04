@@ -323,7 +323,31 @@ iframe {
 }
 
 
-/*    TABLA    */
+/*    INFO    */
+
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.horario {
+    font-size: 18px;   
+}
+
+.horario dt{
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(211, 211, 211, 0.589);
+}
+
+/*  Tabla  */
 
 .contenidoTabla {
     border-collapse: collapse;
@@ -332,6 +356,8 @@ iframe {
     overflow:auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     font-size: 15px;
+    width: 100%;
+    
     
 }
 
@@ -368,11 +394,20 @@ iframe {
     transition: 0.5s;
     transform:scale(1.02);
     color: white;
+    font-weight: bold;
     
 }
 
-/*   LISTAS   */
+/*   Listas   */
 
 ul {
     padding: 40px;
+}
+
+.listas {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+
+   
 }
