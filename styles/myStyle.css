@@ -381,3 +381,35 @@ iframe {
     transform:scale(1.02);
     color: white;
 }
+
+
+
+/*  FORMULARIO   */
+
+.containerFormulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 800px;
+    align-items: center;
+    
+    
+}
+
+.datos_nombre {
+    display: flex;
+
+}
+
+.datos_dirección {
+    display: flex;
+}
+
+.datos_ciudad {
+    display: flex;
+}
+
+.datos_email {
+    display: flex;
+}
