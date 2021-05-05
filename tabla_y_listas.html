@@ -44,74 +44,107 @@
     <h2>Información de los cursos</h2>
 
     <section class="main">
-    
-        <table class="contenidoTabla">
-            <thead>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Ciudad</th>
-                    <th>Hobby</th>
-                    <th>Comida Favorita</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Cristina</td>
-                    <td>Martínez</td>
-                    <td>Murcia</td>
-                    <td>Escalada</td>
-                    <td>Croquetas</td>
-                </tr>
-                <tr>
-                    <td>Jesús</td>
-                    <td>Trigo</td>
-                    <td>Jaén</td>
-                    <td>Montaña</td>
-                    <td>Habichuelas mareadas</td>
-                </tr>
-                <tr>
-                    <td>Alexandra</td>
-                    <td>David</td>
-                    <td>Zaragoza</td>
-                    <td>Videojuegos</td>
-                    <td>Paella de marisco</td>
-                </tr>
 
-                <tr>
-                    <td>Tairo</td>
-                    <td>Estévez</td>
-                    <td>Sevilla</td>
-                    <td>Pintura</td>
-                    <td>Chipirones a la plancha</td>
-                </tr>
+        <div class="containerInfo">
 
-                <tr>
-                    <td>Carla</td>
-                    <td>Maceiras</td>
-                    <td>A Coruña</td>
-                    <td>Surf</td>
-                    <td>Percebes</td>
-                </tr>
+            <div class="horario">
 
-                <tr>
-                    <td>Jaume</td>
-                    <td>Córdoba</td>
-                    <td>Barcelona</td>
-                    <td>Pintar</td>
-                    <td>Pizza</td>
-                </tr>
-        
-            </tbody>
-        </table> 
+                <div class="imagenHorario">
+                    <img src="./images/horario2.jpg" alt=imagen>
+                </div>
+
+                <div class="listaDescriptiva">
+                
+                    <dl>
+                        <dt>Horario</dt>
+                        <dd>9:00 - 9:30 Daily Meeting</dd>                  
+                        <dd>10:00 - 12:00  Clase teórica &#40;cuando sea necesario&#41; con pausa para desayunar</dd>
+                        <dd>12:00 - 14:00  Trabajo individual y sesiones de solución de problemas o seguimiento con el mentor</dd>
+                        <dd>14:00 - 15:00  Pausa para comer</dd>
+                        <dd>15:00 - 17:00  Trabajo individual y sesiones de solución de problemas o seguimiento con el mentor</dd>
+                        <dd>17:00 - 17:30  Fin del día, charla grupal informal</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <h3>Nuestras/os lumnas/os</h3>
+   
+            <table class="contenidoTabla">
+
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Ciudad</th>
+                        <th>Hobby</th>
+                        <th>Comida Favorita</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cristina</td>
+                        <td>Martínez</td>
+                        <td>Murcia</td>
+                        <td>Escalada</td>
+                        <td>Croquetas</td>
+                    </tr>
+                    <tr>
+                        <td>Jesús</td>
+                        <td>Trigo</td>
+                        <td>Jaén</td>
+                        <td>Montaña</td>
+                        <td>Habichuelas mareadas</td>
+                    </tr>
+                    <tr>
+                        <td>Alexandra</td>
+                        <td>David</td>
+                        <td>Zaragoza</td>
+                        <td>Videojuegos</td>
+                        <td>Paella de marisco</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tairo</td>
+                        <td>Estévez</td>
+                        <td>Sevilla</td>
+                        <td>Pintura</td>
+                        <td>Chipirones a la plancha</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carla</td>
+                        <td>Maceiras</td>
+                        <td>A Coruña</td>
+                        <td>Surf</td>
+                        <td>Percebes</td>
+                    </tr>
+
+                    <tr>
+                        <td>Jaume</td>
+                        <td>Córdoba</td>
+                        <td>Barcelona</td>
+                        <td>Pintar</td>
+                        <td>Pizza</td>
+                    </tr>
+            
+                </tbody>
+            </table>
 
 
-        <ul>
-            <li>HTML  
-                <ul>
-                    <li>tags
+            </div>
+        </div> 
+
+        <div class="containerListas">
+
+            <div class="contenido contenidoHtml">  
+                
+                <h3>HTML</h3>
+
+                <ul>                      
+                    <li><h4>Tags<h4>
                         <ul>
-                            <li>HTML Basic
+                            <li><span>HTML Basic</span> 
+
                                 <ul>
                                     <li>&lt;!DOCTYPE&gt;: tipo de documento</li>
                                     <li>&lt;html&gt;: documento html</li>
@@ -121,7 +154,9 @@
                                     <li>&lt;h1&gt;-&lt;h6&gt;: encabezados</li>
                                     <li>&lt;p&gt;: párrafo</li>
                                     <li>&lt;hr&gt;: línea de separación horizontal</li>
-                                    <li>&lt;!--...--&gt;: comentario</li>                               
+
+                                    <li>&lt;!--...--&gt;: comentario</li>                            
+
                                 </ul>
                             </li>
                             <li>Formato
@@ -217,14 +252,21 @@
                             <li>src&#61;&#34;&#34;</li>
                         </ul>
                     </li>             
-                </ul>        
-            </li>      
-        </ul>
+
+                                
+                </ul>
 
 
-        <ul>
-            <li>CSS
-                <ul>
+            </div>
+
+            <div class= "lineaContenido"></div>
+
+            <div class="contenido contenidoCss">  
+                
+                <h3>CSS</h3>
+
+                <ul>                        
+
                     <li>Selectores
                         <ul>
                             <li>De tipo&#58;
@@ -320,23 +362,13 @@
                             </li>
 
                         </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
 
-        <dl>
-            <dt>Horario del día</dt>
-            <dd>9:00 - 9:30    Daily Meeting</dd>
-            <dd>10:00 - 12:00  Clase teórica &#40;cuando sea necesario&#41; con pausa para desayunar</dd>
-            <dd>12:00 - 14:00  Trabajo individual y sesiones de solución de problemas o seguimiento con el mentor</dd>
-            <dd>14:00 - 15:00  Pausa para comer</dd>
-            <dd>15:00 - 17:00  Trabajo individual y sesiones de solución de problemas o seguimiento con el mentor</dd>
-            <dd>17:00 - 17:30  Fin del día, charla grupal informal</dd>
+                    </li>                       
+                    </ul>
+                
+            </div>
 
-        </dl>
-
-
+        </div>
 
 
     </section>

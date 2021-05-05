@@ -60,12 +60,17 @@ header{
     text-decoration: none;
     margin-left: 60px;
     vertical-align: top;
+    
 }
 
 .containerMenu a:hover{
-    font-size: 25px;
-    
+    background-color: rgba(158, 158, 158, 0.473);
+    border-radius: 5px 5px 5px 5px ;
+    font-size: 21px;
+    color: white;
+  
 }
+
 
 .logo img {
     width: 300px;
@@ -93,18 +98,13 @@ header{
 .fondoBody {
     /* background: radial-gradient( lightgray 30%, white 70% ); */
     margin-top: -80px;
-    height: 700px;
-    
-
-
-    
-    
+    height: 700px;  
 }
 
 .main {
     width: 80%;
     margin: auto;
-    border-bottom: 30px;
+    min-height: 400px; 
     
 }
 
@@ -218,12 +218,6 @@ h2{
     border: 3px solid lightgray;
 }
 
-.mainContacto {
-    width: 80%;
-    margin: auto;
-    height: 400px;
-    
-}
 
 .containerContacto {
     width: 40%;
@@ -237,7 +231,7 @@ h2{
     margin-top: 20px;
 }
 
-.mainContacto .lineaContacto {
+.main .lineaContacto {
     border-left:  3px solid lightgray;
     height: 297px;
     position: absolute;
@@ -256,13 +250,8 @@ iframe {
 
 /*  CONÓCENOS  */
 
-.conocenos {
-    width: 85%;
-    margin: auto;
-}
 
 .container2 {
-    width: 1292px;
     display: flex;
     margin-top: 50px;
     flex-direction: row;
@@ -334,17 +323,72 @@ iframe {
 }
 
 
-/*    TABLA    */
+/*    INFO    */
+
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+    
+    
+}
+
+.horario {
+    font-size: 15px;
+    display:flex; 
+    justify-content: space-evenly;
+    height: 300px; 
+    margin-top: 150px; 
+    
+
+}
+
+.imagenHorario img {
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+    box-shadow: 0 0 20px rgba(137, 138, 131, 0.5);
+}
+
+.listaDescriptiva dl {
+    width: 750px;
+    font-weight: bold;
+   
+}
+
+.listaDescriptiva dt{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(211, 211, 211, 0.336);
+    box-shadow: 0 0 10px rgba(137, 138, 131, 0.397);
+    
+}
+
+.listaDescriptiva dd {
+    margin-left: 10px;
+}
+
+/*  Tabla  */
+
+.containerInfo h3 {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+
+}
 
 .contenidoTabla {
     border-collapse: collapse;
-    margin: 45px 0 0 45px;
-    font-size: 0.9cm;    
-    height: 100px;   
-    border-radius: 20px 20px 20px 20px;
+    margin: 45px 0 0 0px;   
+    border-radius: 5px 5px 0 0;
     overflow:auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    font-size: 25px;
+    font-size: 16px; 
+    
+    
 }
 
 .contenidoTabla thead tr {
@@ -361,7 +405,7 @@ iframe {
 
 .contenidoTabla tbody tr {
     border-bottom: 1 px solid rgb(133, 130, 130);
-    color: rgb(73, 73, 73);
+    color: rgb(53, 53, 53);
 
 }
 
@@ -377,9 +421,52 @@ iframe {
 
 .contenidoTabla tbody tr:hover {
     background-color: #7184b8ab;
-    transition: 1s;
+    transition: 0.5s;
     transform:scale(1.02);
     color: white;
+    font-weight: bold;
+    
+}
+
+
+/*   Listas   */
+
+ul {
+    padding: 10px 20px 10px 20px;
+    list-style-type:none;
+    
+}
+
+
+.containerListas {
+    display: flex;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    font-size: 15px;
+    
+    
+    
+}
+
+.lineaContenido {
+    border-left:  3px solid lightgray;
+    height: 1800px; 
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.contenido {
+    width: 600px; 
+}
+
+
+.containerListas h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+    background-color: rgba(211, 211, 211, 0.336);
+    box-shadow: 0 0 10px rgba(137, 138, 131, 0.397);
 }
 
 
@@ -417,3 +504,4 @@ ul {
 .datos_email {
     display: flex;
 }
+
