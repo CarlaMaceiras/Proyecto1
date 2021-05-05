@@ -473,35 +473,92 @@ ul {
 
 /*  FORMULARIO   */
 
+form {
+    width: 80%;
+    margin-left: 130px;
+    background-color: rgba(211, 211, 211, 0.815);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px 15px 15px 15px;
+    height: auto;
+}
+
 .containerFormulario {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    margin-left: 200px;
-    width: 800px;
-    align-items: center;
-    
-    
+    margin-left: 50px; 
+    width: 90%;   
+      
 }
 
-ul {
-    
+.containerFormulario h3 {
+    text-align: center;
+    color: rgb(107, 106, 106);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    border-bottom: 1px solid rgb(107, 106, 106); ;
 }
 
-.datos_nombre {
+.datos_personales {
     display: flex;
-
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* border-top: 1px solid rgb(107, 106, 106); */
 }
 
-.datos_dirección {
+
+
+.datos_personales1{
     display: flex;
+    justify-content: space-between; 
+    width: 100%;
+
 }
 
-.datos_ciudad {
-    display: flex;
+.datos_nombre, .datos_apellido, .datos_{
+    width: 100%;
 }
 
-.datos_email {
-    display: flex;
+.datos_personales1 input {
+    width: 80%;
 }
+
+
+
+
+.datos_curso {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* border-top: 1px solid rgb(107, 106, 106); */
+}
+
+
+
+.datos_curso1 {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.datos_curso2 {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.datos_pie {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* border-top: 1px solid rgb(107, 106, 106); */
+}
+
+
+
+
+
+
 
