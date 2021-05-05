@@ -64,10 +64,11 @@ header{
 }
 
 .containerMenu a:hover{
-    background-color: rgba(158, 158, 158, 0.473);
+    
     border-radius: 5px 5px 5px 5px ;
     font-size: 21px;
-    color: white;
+    color: #7184b8;
+    font-weight: bold;
   
 }
 
@@ -88,14 +89,8 @@ header{
 
 /*  BODY   */
 
-.fondoBody h2 {
-    text-align: center;
-    font-weight: bold;
-    /* border: 3px solid lightgrey; */
-    width: 100%;  
-    margin-top: 70px;
-    font-size: 25px;
-    background: linear-gradient(to bottom, rgb(51, 51, 51), rgb(81,81,81),rgb(129, 129, 129),rgb(216, 216, 216),white)
+.fondoBody h2 {    
+    margin-top: 80px;     
 } 
 
 .fondoBody {
@@ -127,15 +122,12 @@ header{
     height: 300px;
     width: 200px;
     justify-content: space-evenly;
-    border: 1px solid lightslategrey;
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 0 0 5px 5px  rgb(184, 184, 184);
-    background-image: url("../images/images.jpg");  
-    background-color: white; 
-    background-repeat: no-repeat;  
-    background-size: cover;
+    box-shadow: 0 0 10px 10px  rgb(184, 184, 184);
+    background-color: rgba(236, 235, 235, 0.87); 
     font-size: 25px;
+
       
 }
 
@@ -167,8 +159,8 @@ header{
     font-weight: bold;
     font-size: 18px;
     box-shadow: 0 0 6px 6px  rgb(184, 184, 184); 
-    /* background: linear-gradient(to right,#ac91f7,#ac91f7, #8a6cf7,#7e52f7,#6e49f7,#6c35ee,#471eb8); */
-    background: linear-gradient(to right,#f5f0dd,#f5e9b8, #f3e598,#f8dd91,#f1d65e,#d4b93e,#c7b02d)
+    background: linear-gradient(to right,#d1d6e0,#b9bfce,#939bb3,#838eb1,#7989b8,#7184b8);
+    border-radius: 5px;
 }
 
 .inscribir a{
@@ -223,7 +215,9 @@ footer {
 h2{
     text-align: center;
     font-weight: bold;
-    border: 3px solid lightgray;
+    border: 3px solid lightgray; 
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 
