@@ -72,6 +72,8 @@ header{
 }
 
 
+
+
 .logo img {
     width: 300px;
     margin-top: -200px;
@@ -89,10 +91,11 @@ header{
 .fondoBody h2 {
     text-align: center;
     font-weight: bold;
-    border: 3px solid lightgrey;
+    /* border: 3px solid lightgrey; */
     width: 100%;  
-    margin-top: 80px;
+    margin-top: 70px;
     font-size: 25px;
+    background: linear-gradient(to bottom, rgb(51, 51, 51), rgb(81,81,81),rgb(129, 129, 129),rgb(216, 216, 216),white)
 } 
 
 .fondoBody {
@@ -166,6 +169,11 @@ header{
     box-shadow: 0 0 6px 6px  rgb(184, 184, 184); 
     /* background: linear-gradient(to right,#ac91f7,#ac91f7, #8a6cf7,#7e52f7,#6e49f7,#6c35ee,#471eb8); */
     background: linear-gradient(to right,#f5f0dd,#f5e9b8, #f3e598,#f8dd91,#f1d65e,#d4b93e,#c7b02d)
+}
+
+.inscribir a{
+    text-decoration: none;
+    color: black;
 }
 
 .inscribir:hover {
@@ -476,6 +484,7 @@ ul {
 form {
     width: 80%;
     margin-left: 130px;
+    margin-bottom: 100px;
     background-color: rgba(211, 211, 211, 0.815);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 15px 15px 15px 15px;
@@ -503,37 +512,45 @@ form {
 .datos_personales {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    justify-content: space-between;  
     padding: 10px;
-    /* border-top: 1px solid rgb(107, 106, 106); */
+   
 }
 
 
 
 .datos_personales1{
-    display: flex;
-    justify-content: space-between; 
+    display: flex; 
     width: 100%;
+    margin-left: 20px;
 
 }
 
-.datos_nombre, .datos_apellido, .datos_{
+.datos_nombre, .datos_apellido,.datos_ciudad, .datos_dirección, .datos_email, .datos_phone{ 
     width: 100%;
+    margin-top: 20px;
 }
+
+
 
 .datos_personales1 input {
-    width: 80%;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid grey; 
+    background:none;
+    
 }
 
-
-
+.datos_personales1 input:hover {
+    background-color: lightslategrey;
+}
 
 .datos_curso {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     padding: 10px;
-    /* border-top: 1px solid rgb(107, 106, 106); */
+    
 }
 
 
@@ -541,11 +558,47 @@ form {
 .datos_curso1 {
     display: flex;
     justify-content: space-between; 
+    margin-bottom: 20px;
 }
 
-.datos_curso2 {
-    display: flex;
-    justify-content: space-between; 
+
+.datos_curso1 label {
+    margin-right: 20px;
+}
+
+#parttime {
+    margin-left: 110px;
+    
+}
+
+.checkbox{
+    text-align:left; 
+
+}
+
+
+#box_html, #box_css, #flexbox {
+    margin-bottom: 20px;
+}
+
+#box_git_github, #box_html {
+    margin-left: 0px;
+}
+
+#box_css {
+    margin-left: 102px;
+}
+
+#box_flexbox {
+    margin-left: 47px;
+}
+
+#box_js {
+    margin-left: 47px;
+}
+
+#box_react {
+    margin-left: 60px;
 }
 
 .datos_pie {
@@ -553,7 +606,21 @@ form {
     flex-direction: column;
     margin-bottom: 20px;
     padding: 10px;
-    /* border-top: 1px solid rgb(107, 106, 106); */
+    border-top: 1px solid rgb(107, 106, 106); 
+}
+
+.comentarios {
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+.comentarios textarea {
+    width: 70%;
+    height: 100px;
+}
+
+.submit {
+    margin-left: 550px;
 }
 
 
