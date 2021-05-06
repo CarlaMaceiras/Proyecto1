@@ -3,7 +3,7 @@
     padding:0;
     box-sizing: content-box;
     font-family:"poppins";
-    
+
 }
 
 /* HEADER */
@@ -22,25 +22,25 @@ header{
 }
 
 .fondo {
-    width: 100%;   
+    width: 100%;
     height: 300px;
     background-image: url("../images/background-image.jpg") ;
     background-repeat: no-repeat;
-    background-position-y: -400px; 
+    background-position-y: -400px;
     background-size: cover;
     margin-top: 0px;
     filter:brightness(60%);
-    box-shadow: 0 0 8px 8px  black inset; 
-    
-    
+    box-shadow: 0 0 8px 8px  black inset;
+
+
 }
 
 .imagen img {
-    width:100px; 
+    width:100px;
     margin-left: 80px;
     display: block;
     position:absolute;
-    top: 5px; 
+    top: 5px;
     z-index: -1;
 }
 
@@ -49,27 +49,31 @@ header{
     flex-direction: row;
     font-size: 20px;
     text-align:right;
-    margin-top: 30px;   
-    width: 100%;;  
+    margin-top: 30px;
+    width: 100%;;
     height: 40px;
     margin-left: -30px;
+
 }
 
-.containerMenu a {   
-    color:rgb(80, 80, 80);   
+.containerMenu a {
+    color:rgb(80, 80, 80);
     text-decoration: none;
     margin-left: 60px;
     vertical-align: top;
-    
+
+
+
 }
 
+
 .containerMenu a:hover{
-    
+
     border-radius: 5px 5px 5px 5px ;
     font-size: 21px;
     color: #7184b8;
     font-weight: bold;
-  
+
 }
 
 
@@ -80,30 +84,30 @@ header{
     margin-top: -200px;
     margin-left: 600px;
     position: absolute;
-    
-   
-    
+
+
+
 }
 
 /*  HOME  */
 
 /*  BODY   */
 
-.fondoBody h2 {    
-    margin-top: 80px;     
-} 
+.fondoBody h2 {
+    margin-top: 80px;
+}
 
 .fondoBody {
     /* background: radial-gradient( lightgray 30%, white 70% ); */
     margin-top: -80px;
-    height: 700px;  
+    height: 700px;
 }
 
 .main {
     width: 80%;
     margin: auto;
-    min-height: 400px; 
-    
+    min-height: 400px;
+
 }
 
 
@@ -113,7 +117,7 @@ header{
     margin-top: 90px;
     height: 400px;
     font-size: 20px;
-    align-items: center;  
+    align-items: center;
 }
 
 
@@ -125,31 +129,38 @@ header{
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 0 10px 10px  rgb(184, 184, 184);
-    background-color: rgba(236, 235, 235, 0.87); 
+    background-color: rgba(236, 235, 235, 0.87);
     font-size: 25px;
 
-      
+
+
+}
+
+.curso curso1 {
+    border: 1px solid grey;
 }
 
 .fecha {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
-    font-weight: bold; 
-    margin-top: 20px;  
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(146, 146, 146);
 }
 
-.mes {  
+.mes {
     text-align: left;
-    
+
 }
 
 .dia {
-     width: 40px; 
+     width: 40px;
 }
 
 .tipo {
     margin: 30px auto 30px auto;
+
 }
 
 .inscribir {
@@ -158,7 +169,7 @@ header{
     width: 150px;
     font-weight: bold;
     font-size: 18px;
-    box-shadow: 0 0 6px 6px  rgb(184, 184, 184); 
+    box-shadow: 0 0 6px 6px  rgb(184, 184, 184);
     background: linear-gradient(to right,#d1d6e0,#b9bfce,#939bb3,#838eb1,#7989b8,#7184b8);
     border-radius: 5px;
 }
@@ -175,7 +186,7 @@ header{
 
 /*  FOOTER  */
 
-footer {    
+footer {
     height: 50px;
     width: 100%;
 
@@ -184,13 +195,13 @@ footer {
 .containerFooter{
     display:flex;
     justify-content: flex-end;
-    align-items: flex-end;     
+    align-items: flex-end;
 }
 
 .imagen2 img {
     width: 150px;
     position:absolute;
-    margin-top: 20px; 
+    margin-top: 20px;
     display: block;
     margin-left: 80px;
 }
@@ -198,13 +209,13 @@ footer {
 .containerFooter p {
     margin-right: 50px;
     margin-top: 30px;
-    
+
 }
 
 .linea2{
     position:absolute;
     z-index: -1;
-    width: 100%; 
+    width: 100%;
     height: 80px;
     background-color: rgb(164, 166, 168);
     background: linear-gradient(to top, rgb(164, 166, 168), white );
@@ -215,8 +226,8 @@ footer {
 h2{
     text-align: center;
     font-weight: bold;
-    border: 3px solid lightgray; 
-    
+    border: 3px solid lightgray;
+
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -226,7 +237,7 @@ h2{
     margin-left: 650px;
     margin-top: 150px;
     text-align: center;
-    
+
 }
 
 .containerContacto p {
@@ -239,8 +250,8 @@ h2{
     position: absolute;
     margin-top: -78px;
     margin-left: 600px;
-    
-    
+
+
 }
 
 iframe {
@@ -257,7 +268,7 @@ iframe {
     display: flex;
     margin-top: 50px;
     flex-direction: row;
-    justify-content: space-around;  
+    justify-content: space-around;
 
 }
 
@@ -289,15 +300,15 @@ iframe {
     height: 150px;
     text-align: center;
     display: flex;
-    flex-direction: row;  
-    align-items: center; 
-    margin-bottom: 90px; 
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 90px;
 }
 
 .mentor:hover {
     transform:scale(1.2);
     transition: transform 2s;
-    
+
 }
 
 .nombre {
@@ -321,7 +332,7 @@ iframe {
     height: 150px;
     border-radius: 150px;
     margin-bottom: 10px;
-    
+
 }
 
 
@@ -330,19 +341,19 @@ iframe {
 .containerInfo {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
 
-    
-    
+
+
 }
 
 .horario {
     font-size: 15px;
-    display:flex; 
+    display:flex;
     justify-content: space-evenly;
-    height: 300px; 
-    margin-top: 150px; 
-    
+    height: 300px;
+    margin-top: 150px;
+
 
 }
 
@@ -356,7 +367,7 @@ iframe {
 .listaDescriptiva dl {
     width: 750px;
     font-weight: bold;
-   
+
 }
 
 .listaDescriptiva dt{
@@ -366,7 +377,7 @@ iframe {
     margin-bottom: 15px;
     background-color: rgba(211, 211, 211, 0.336);
     box-shadow: 0 0 10px rgba(137, 138, 131, 0.397);
-    
+
 }
 
 .listaDescriptiva dd {
@@ -384,17 +395,19 @@ iframe {
 
 .contenidoTabla {
     border-collapse: collapse;
-    margin: 45px 0 0 0px;   
+    margin: 45px 0 0 0;
     border-radius: 5px 5px 0 0;
     overflow:auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    font-size: 16px; 
-    
-    
+    font-size: 16px;
+
+
+
 }
 
+
 .contenidoTabla thead tr {
-    background-color: #7184b8;
+    background-color: #57668dd0;
     color: white;
     text-align: left;
     font-weight: bold;
@@ -402,8 +415,11 @@ iframe {
 
 .contenidoTabla th,
 .contenidoTabla td {
-    padding: 12px 20px;
+    padding: 12px 0 12px 60px;
+
 }
+
+
 
 .contenidoTabla tbody tr {
     border-bottom: 1 px solid rgb(133, 130, 130);
@@ -422,44 +438,58 @@ iframe {
 }
 
 .contenidoTabla tbody tr:hover {
-    background-color: #7184b8ab;
+    background-color: #57668da6;
     transition: 0.5s;
     transform:scale(1.02);
     color: white;
     font-weight: bold;
-    
+
 }
 
 
 /*   Listas   */
 
 ul {
-    padding: 10px 20px 10px 20px;
+    padding: 0 0 10px 20px;
     list-style-type:none;
-    
 }
 
+#tags,
+#atributos,
+#selectores,
+#pseudoclases,
+#propiedades {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+li p {
+    font-weight: bold;
+    font-size: 15px;
+
+}
 
 .containerListas {
     display: flex;
-    margin-top: 50px; 
+    margin-top: 50px;
     margin-bottom: 50px;
     font-size: 15px;
-    
-    
-    
+
+
+
 }
 
 .lineaContenido {
     border-left:  3px solid lightgray;
-    height: 1800px; 
+    height: 1800px;
     position: absolute;
     margin-top: 20px;
     margin-left: 600px;
 }
 
 .contenido {
-    width: 600px; 
+    width: 600px;
 }
 
 
@@ -489,9 +519,9 @@ form {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    margin-left: 50px; 
-    width: 90%;   
-      
+    margin-left: 50px;
+    width: 90%;
+
 }
 
 .containerFormulario h3 {
@@ -506,33 +536,36 @@ form {
 .datos_personales {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;  
+    justify-content: space-between;
     padding: 10px;
-   
+
 }
 
 
-
 .datos_personales1{
-    display: flex; 
+    display: flex;
     width: 100%;
     margin-left: 20px;
 
 }
 
-.datos_nombre, .datos_apellido,.datos_ciudad, .datos_dirección, .datos_email, .datos_phone{ 
+.datos_personales1 div{
     width: 100%;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-
+.datos_personales1 label{
+    width: 90%;
+}
 
 .datos_personales1 input {
     width: 90%;
     border: none;
-    border-bottom: 1px solid grey; 
+    border-bottom: 1px solid grey;
     background:none;
-    
+
 }
 
 .datos_personales1 input:hover {
@@ -544,15 +577,23 @@ form {
     flex-direction: column;
     margin-bottom: 20px;
     padding: 10px;
-    
+
 }
 
 
 
 .datos_curso1 {
     display: flex;
-    justify-content: space-between; 
-    margin-bottom: 20px;
+    justify-content:space-between;
+    margin: 0 30px 30px 30px;
+   
+}
+
+.datos_curso2 {
+    display: flex;
+    justify-content:center;
+
+   
 }
 
 
@@ -562,37 +603,41 @@ form {
 
 #parttime {
     margin-left: 110px;
+
+}
+
+
+.conocimientos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conocimientos label{
+    text-align: center;
+}
+.checkbox {
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 350px
+
+}
+
+.checkbox1 {
+    justify-content: space-between;
+    display:flex;
+}
+
+.checkbox1 div {
+    width: 107px;
     
 }
 
-.checkbox{
-    text-align:left; 
-
-}
-
-
-#box_html, #box_css, #flexbox {
-    margin-bottom: 20px;
-}
-
-#box_git_github, #box_html {
-    margin-left: 0px;
-}
-
-#box_css {
-    margin-left: 102px;
-}
-
-#box_flexbox {
-    margin-left: 47px;
-}
-
-#box_js {
-    margin-left: 47px;
-}
-
-#box_react {
-    margin-left: 60px;
+.checkbox1 div #box_css, #box_js {
+    margin-left: 20px;
+    
 }
 
 .datos_pie {
@@ -600,7 +645,7 @@ form {
     flex-direction: column;
     margin-bottom: 20px;
     padding: 10px;
-    border-top: 1px solid rgb(107, 106, 106); 
+    border-top: 1px solid rgb(107, 106, 106);
 }
 
 .comentarios {
@@ -618,8 +663,15 @@ form {
 }
 
 
+/*  MEDIA QUERY FORMULARIO  */
 
+@media (max-width: 600px) {
+    .datos_personales1 {
+        flex-wrap: wrap;
+    }
 
+   
+}
 
 
 
