@@ -621,7 +621,8 @@ form {
     display:flex;
     flex-direction: column; 
     justify-content: space-between;
-    width: 350px
+    width: 400px;
+    font-size: 15px;
 
 }
 
@@ -667,7 +668,7 @@ form {
 
 @media (max-width: 600px) {
     .datos_personales1 {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
    

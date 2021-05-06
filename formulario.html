@@ -20,7 +20,7 @@
 
         <nav>
             <div class="containerMenu">
-                <a href="homeNew.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="conocenosNew.html">Conócenos</a>
                 <a href="contactoNew.html">Contacto</a>
                 <a href="tabla_y_listas.html">Info</a>
@@ -118,7 +118,7 @@
 
                         <div>
                             <label for="cities">Lugar:</label>
-                            <select name="cities">
+                            <select id="cities">
                                 <option>Barcelona</option>
                                 <option>Zaragoza</option>
                                 <option>Online</option>
@@ -134,14 +134,32 @@
                             <label for="conocimientos">Conocimientos previos:</label>
                             <div class="checkbox">
                                 <div class="checkbox1">
-                                    <div><input type="checkbox" id="box_html" value="html">HTML</div>
-                                    <div><input type="checkbox" id="box_css" value="css">CSS</div>
-                                    <div><input type="checkbox" id="box_flexbox" value="flexbox">flexbox</div>
+                                    <div>
+                                        <input type="checkbox" id="box_html" value="html">
+                                        <label for="box_html">HTML</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="box_css" value="css">
+                                        <label for="box_css">CSS</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="box_flexbox" value="flexbox">
+                                        <label for="box_flexbox">Flexbox</label>
+                                    </div>
                                 </div>
                                 <div class="checkbox1">
-                                    <div><input type="checkbox" id="box_git_github" value="git_github">Git & Github</div>
-                                    <div><input type="checkbox" id="box_js" value="js">JS</div>
-                                    <div><input type="checkbox" id="box_react" value="react">React</div>
+                                    <div>
+                                        <input type="checkbox" id="box_git_github" value="git_github">
+                                        <label for="box_git_github">Git & Github</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="box_js" value="js">
+                                        <label for="box_js">JS</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="box_react" value="react">
+                                        <label for="box_react">React</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
