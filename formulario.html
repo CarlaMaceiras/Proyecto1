@@ -105,15 +105,26 @@
 
                     <div class="datos_curso1">
 
-                        <div>                   
-                            <label for="bootcamp">Bootcamp:</label>
-                            <input type="radio" id="fulltime" name="time" checked="checked" /> Full-Time <br>
-                            <input type="radio" id="parttime" name="time" checked="checked" /> Part-Time
+                         
+                        <div class="full_part_time"> 
+
+                            <p>Bootcamp:</p>
+
+                            <div class="full_part_time1">
+                                <div>                 
+                                    <input type="radio" id="fulltime" name="time" checked="checked" />
+                                    <label for="fulltime">Full-Time</label> 
+                                </div>
+                                <div>
+                                    <input type="radio" id="parttime" name="time" checked="checked" />
+                                    <label for="partime">Part-Time</label> 
+                                </div>
+                            </div>
                         </div>
 
-                        <div>
-                            <label for="comienzo">Fecha de inicio:</label>
+                        <div>                           
                             <input type="date" id="comienzo" name="comienzo" min="2021-01-25" max="2021-07-09" required>
+                            <label for="comienzo">Fecha de inicio:</label>
                         </div>
 
                         <div>
@@ -131,7 +142,7 @@
 
                         <div class="conocimientos">
 
-                            <label for="conocimientos">Conocimientos previos:</label>
+                            <p>Conocimientos previos:</p>
                             <div class="checkbox">
                                 <div class="checkbox1">
                                     <div>
@@ -162,6 +173,23 @@
                                     </div>
                                 </div>
                             </div>
+
+                            
+                        </div>
+
+                        <div class="como_conociste">
+
+                            <div>    
+                                <label for="como_conociste">¿Cómo nos conociste?</label>               
+                                <select id="como_conociste">
+                                    <option>Redes Sociales</option>
+                                    <option>Internet</option>
+                                    <option>Televisión</option>
+                                    <option>Por otra persona</option>
+                                    
+                                </select>
+                            </div>
+
                         </div>
 
                     </div>

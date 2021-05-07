@@ -533,6 +533,8 @@ form {
     border-bottom: 1px solid rgb(107, 106, 106); ;
 }
 
+/* datos personales */
+
 .datos_personales {
     display: flex;
     flex-direction: column;
@@ -540,7 +542,6 @@ form {
     padding: 10px;
 
 }
-
 
 .datos_personales1{
     display: flex;
@@ -572,6 +573,8 @@ form {
     background-color: lightslategrey;
 }
 
+/* datos curso bootcamp */
+
 .datos_curso {
     display: flex;
     flex-direction: column;
@@ -581,7 +584,6 @@ form {
 }
 
 
-
 .datos_curso1 {
     display: flex;
     justify-content:space-between;
@@ -589,21 +591,30 @@ form {
    
 }
 
-.datos_curso2 {
-    display: flex;
-    justify-content:center;
-
-   
-}
-
-
-.datos_curso1 label {
+.datos_curso1 p {
     margin-right: 20px;
 }
 
-#parttime {
-    margin-left: 110px;
+.datos_curso1 .full_part_time {
+    justify-content: left;
+    display: flex;
+}
+.datos_curso1 .full_part_time1 {
+    display: flex;
+    flex-direction: column;
+    
+}
 
+.datos_curso2 {
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 30px 30px 30px;
+
+   
+}
+.como_conociste {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -613,8 +624,8 @@ form {
 
 }
 
-.conocimientos label{
-    text-align: center;
+.conocimientos p {
+    text-align: left;
 }
 .checkbox {
     margin-top: 10px;
@@ -636,10 +647,7 @@ form {
     
 }
 
-.checkbox1 div #box_css, #box_js {
-    margin-left: 20px;
-    
-}
+/* comentarios */
 
 .datos_pie {
     display: flex;
@@ -647,26 +655,29 @@ form {
     margin-bottom: 20px;
     padding: 10px;
     border-top: 1px solid rgb(107, 106, 106);
+    align-items: center;
 }
 
 .comentarios {
-    margin-left: 230px;
-    margin-top: 20px;
+    width: 60%;
+    height: 100px;   
 }
 
 .comentarios textarea {
-    width: 70%;
-    height: 100px;
+    width: 100%;
+    height: 100px; 
+    
 }
 
 .submit {
-    margin-left: 550px;
+    margin: 10px 0 0 400px;
 }
 
 
 /*  MEDIA QUERY FORMULARIO  */
 
-@media (max-width: 600px) {
+@media screen and (max-width: 667px) {
+
     .datos_personales1 {
         flex-direction: column;
     }
