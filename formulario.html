@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/myStyle.css">
+
 
 </head>
 
@@ -18,29 +20,77 @@
 
         <div class="box"></div>
 
-        <nav>
-            <div class="containerMenu">
-                <a href="index.html">Home</a>
-                <a href="conocenosNew.html">Conócenos</a>
-                <a href="contactoNew.html">Contacto</a>
-                <a href="tabla_y_listas.html">Info</a>
-                <a href="formulario.html">Inscríbete</a>
+        <!-- <div class="fondo_movil">
 
+            <div class="fondo">
+                <img src="images/letscoder-sin-fondo.png" alt="Let's Coder">
             </div>
+        </div> -->
 
-        </nav>
+        <!-- <i class="fas fa-bars"></i> -->
 
-        <div class="imagen">
-            <img src="./images/letscoder-square.jpeg" alt="LOGO">
+        <div class="container_navbar_laptop">
+
+            <div class="imagen"> 
+                <img src="./images/letscoder-square2.jpg" alt="LOGO">
+            </div>
+           
+            <nav> 
+                <div>
+                    <a class="home" href="index.html">Home</a>
+                </div>
+                <div>
+                    <a href="conocenosNew.html">Conócenos</a>
+                </div>
+                <div>
+                    <a href="contactoNew.html">Contacto</a>
+                </div>
+                <div>
+                    <a href="tabla_y_listas.html">Info</a>
+                </div>
+                <div>
+                    <a class="boton_inscribete" href="formulario.html">Inscríbete</a>
+                </div>               
+            </nav>
         </div>
 
-        <div class="fondo"></div>
+        
 
-        <div class="logo">
+        <div class="fondo">
             <img src="images/letscoder-sin-fondo.png" alt="Let's Coder">
         </div>
+        
 
+        <div class="container_navbar_movil">
 
+            <div class="imagen_movil"> 
+                <img src="./images/letscoder-sin-fondo.png" alt="LOGO">
+            </div>
+           <div>
+               <input type="checkbox" id="boton_menu">
+               <label for="boton_menu" class="fas fa-bars"></label>
+                <nav> 
+                    
+                    <ul>                  
+                        <li><a class="home" href="index.html">Home</a></li>
+                        
+                        
+                        <li><a href="conocenosNew.html">Conócenos</a></li>
+                    
+                    
+                        <li><a href="contactoNew.html">Contacto</a></li>
+                        
+                        <li> <a href="tabla_y_listas.html">Info</a></li>
+                        
+                        <li><a class="boton_inscribete" href="formulario.html">Inscríbete</a></li>
+                    </ul>
+                        
+                                   
+                </nav>
+            </div>
+        </div>
+        
+     
     </header>
 
     <h2>Inscríbete</h2>
@@ -122,9 +172,10 @@
                             </div>
                         </div>
 
-                        <div>                           
+                        <div>  
+                            <label for="comienzo">Fecha de inicio:</label>                         
                             <input type="date" id="comienzo" name="comienzo" min="2021-01-25" max="2021-07-09" required>
-                            <label for="comienzo">Fecha de inicio:</label>
+                            
                         </div>
 
                         <div>
@@ -231,12 +282,14 @@
         </div>
 
         <div class="containerFooter">
-
-            <p>Let's Coder</p>
-            <p>hola@letscoder.com</p>
-            <p>+34 931 227 721</p>
-
-
+                      
+            
+                <p>Let's Coder</p>
+            
+                <p>hola@letscoder.com</p>
+            
+                <p>+34 931 227 721</p>
+            
         </div>
 
     </footer>
